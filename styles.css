@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -48,4 +48,32 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}*/
+
+/* Add a smooth transition effect for all properties on hover */
+.nav-link, .navbar-brand, h2, h3, p, li {
+  transition: all 0.3s ease;
 }
+
+/* Scale up the navbar links on hover */
+.nav-link:hover, .navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+/* Fade-in effect for sections */
+#about  {
+  opacity: 0;
+  animation: fadeIn 15s ease forwards;
+  animation-delay: 0.5s;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  to {
+    opacity: 10;
+  }
+}
+
+/* Rotate the footer text on hover */
+footer p:hover {
+  transform: rotate(15deg);
