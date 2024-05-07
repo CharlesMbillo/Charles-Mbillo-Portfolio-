@@ -63,7 +63,7 @@ footer {
 /* Fade-in effect for sections */
 #about  {
   opacity: 0;
-  animation: fadeIn 15s ease forwards;
+  animation: fadeIn 0s ease forwards;
   animation-delay: 0.5s;
 }
 
@@ -74,6 +74,66 @@ footer {
   }
 }
 
+/* Add skills section effects */
+  section.skills {
+    background: rgb(17, 17, 17);
+  }
+  .skills-head {
+    /* color: rgb(10, 9, 9); */
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--primary);
+  }
+  .skills-head + p {
+    color: var(--white);
+    font-family: "Lato", sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 6rem;
+    font-weight: 400;
+   }
+  section.skills .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+  }
+  section.skills .card-grid .card {
+    background: var(--white);
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+  section.skills .card-grid .card img {
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var();
+  }
+  section.skills .card-grid .card h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  section.skills .card-grid .card p {
+    font-family: "Lato", sans-serif;
+    color: var(--seconday);
+    line-height: 1.6;
+  }
+  section.skills .card-grid .card:hover {
+    background: var(--primary);
+  }
+  section.skills .card-grid .card:hover h2 {
+    scale: 1.02;
+    color: var(--white);
+  }
+  section.skills .card-grid .card:hover p {
+    color: var(--white);
+  }
 /* Rotate the footer text on hover */
 footer p:hover {
   transform: rotate(15deg);

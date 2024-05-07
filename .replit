@@ -1,5 +1,5 @@
-entrypoint="index.html"
-hidden=[".config"]
+entrypoint = "index.html"
+hidden = [".config"]
 modules = ["python-3.10:v25-20230920-d4ad2e4", "web:v2-20230623-0b7a606"]
 
 [nix]
