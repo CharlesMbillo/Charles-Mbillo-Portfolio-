@@ -178,7 +178,7 @@ footer {
     background: var(--white);
     padding: 3rem 2rem;
     position: relative;
-    text-align: center;
+    text-align: left;
     transition: all 0.2s ease;
   }
   section.projects .card-grid .card img {
