@@ -130,7 +130,7 @@ footer {
   }
   section.skills .card-grid .card p {
     font-family: "Lato", sans-serif;
-    color: var(--seconday);
+    color: var(--secondary);
     line-height: 1.6;
   }
   section.skills .card-grid .card:hover {
@@ -195,7 +195,7 @@ footer {
   }
   section.projects .card-grid .card p {
     font-family: "Lato", sans-serif;
-    color: var(--seconday);
+    color: var(--secondary);
     line-height: 1.6;
   }
   section.projects .card-grid .card:hover {
@@ -261,7 +261,7 @@ footer {
   }
   section.services .card-grid .card p {
     font-family: "Lato", sans-serif;
-    color: var(--seconday);
+    color: var(--secondary);
     line-height: 1.6;
   }
   section.services .card-grid .card:hover {
@@ -338,7 +338,7 @@ footer p:hover {
     gap: 3.5rem;
   }
   .footer-row .footer-col h4 {
-    color: #fff;
+    color: #ffffff;
     font-size: 1.2rem;
     font-weight: 400;
   }
@@ -349,7 +349,7 @@ footer p:hover {
     list-style: none;
     margin-bottom: 10px;
   }
-  .footer-col .links li a {
+  .footer-col .links li a: {
     text-decoration: none;
     color: #bfbfbf;
   }
