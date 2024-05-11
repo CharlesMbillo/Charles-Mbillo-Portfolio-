@@ -224,7 +224,7 @@ footer {
     justify-content: center;
   }
   .justify-right {
-    justify-content: right;
+    justify-content: left;
   }
   .btn {
     padding: 0.6rem 2rem;
