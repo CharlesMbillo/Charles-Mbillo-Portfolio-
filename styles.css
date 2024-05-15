@@ -50,12 +50,8 @@ footer {
     width: 100%;
 }*/
 
-@media screen and (max-width: 600px) {
-  /* CSS rules for screens with a maximum width of 600px */
-  body {
-    background-color: lightblue;
-  }
-}
+
+
 /* Add a smooth transition effect for all properties on hover */
 .nav-link, .navbar-brand, h2, h3, p, li {
   transition: all 0.3s ease;
@@ -112,7 +108,7 @@ footer {
   }
   section.skills .card-grid {
     display: grid;
-    flex-wrap: wrap
+    flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
