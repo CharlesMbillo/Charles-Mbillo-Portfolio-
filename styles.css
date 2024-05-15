@@ -55,7 +55,7 @@ footer {
   body {
     background-color: lightblue;
   }
-}
+
 /* Add a smooth transition effect for all properties on hover */
 .nav-link, .navbar-brand, h2, h3, p, li {
   transition: all 0.3s ease;
@@ -468,3 +468,4 @@ footer p:hover {
      margin-left: 0;
    }
   }
+}
