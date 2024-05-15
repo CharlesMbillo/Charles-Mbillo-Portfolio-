@@ -1,4 +1,4 @@
-/* Add a smooth transition effect for all properties on hover */
+/* Add a smooth transition effect for all properties on hover 
 .nav-link, .navbar-brand, h2, h3, p, li {
   transition: all 0.3s ease;
 }
@@ -224,7 +224,154 @@
   }
   section.services .card-grid .card:hover p {
     color: var(--white);
+  }*/
+/* Add a smooth transition effect for all properties on hover */
+.nav-link, .navbar-brand, h2, h3, p, li {
+  transition: all 0.3s ease;
+}
+
+/* Scale up the navbar links on hover */
+.nav-link:hover, .navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+/* Add a subtle shadow effect to the navbar */
+.navbar-brand:hover {
+  /* add shadow effect */
+}
+
+section {
+  padding: 6rem;
+}
+
+/* Fade-in effect for sections */
+#about {
+  opacity: 0;
+  animation: fadeIn 0s ease forwards;
+  animation-delay: 0.5s;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
   }
+}
+
+/* Card container styles */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+}
+
+/* Card item styles */
+.card-item {
+  background: var(--white);
+  padding: 3rem 2rem;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.card-item img {
+  width: 50px;
+  background: white;
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var();
+}
+
+.card-item h2 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-item p {
+  font-family: "Lato", sans-serif;
+  color: var(--secondary);
+  line-height: 1.6;
+}
+
+.card-item:hover {
+  background: var(--primary-color);
+}
+
+.card-item:hover h2 {
+  transform: scale(1.02);
+  color: var(--white);
+}
+
+.card-item:hover p {
+  color: var(--white);
+}
+
+/* Section-specific styles */
+section.skills {
+  background: #f9f9f9;
+}
+
+.skills-head {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+
+.skills-head + p {
+  color: var(--white);
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 6rem;
+  font-weight: 400;
+}
+
+section.projects {
+  background: #f9f9f9;
+}
+
+.projects-head {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+
+.projects-head + p {
+  color: var(--white);
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 6rem;
+  font-weight: 400;
+}
+
+section.services {
+  background: #f9f9f9;
+}
+
+.services-head {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+
+.services-head + p {
+  color: var(--white);
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1rem;
+  text-align: left;
+  margin-bottom: 6rem;
+  font-weight: 400;
+}
 
 /* Add flex effects*/
   /*".flex {
