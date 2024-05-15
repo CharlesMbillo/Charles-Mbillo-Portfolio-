@@ -177,7 +177,8 @@ footer {
     background: white;
   }
   section.projects .card-grid {
-    display: grid;
+    display: flex grid;
+    flex-wrap: wrap;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
