@@ -115,25 +115,7 @@ section.skills .card-grid {
   columns: repeat(3, 1fr); column-gap: 2rem; } 
 
 }
-  section.skills .card-grid .card {
-    background: var(--white);
-    padding: 3rem 2rem;
-    position: relative;
-    text-align: left;
-    transition: all 0.2s ease;
-  }
-  section.skills .card-grid .card img {
-    position: absolute;
-    top: -1.5rem;
-    left: 50%;
-    transform: translateX(-50%);
-    color: var();
-  }
-  section.skills .card-grid .card h2 {
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-  }
+  
   section.skills .card-grid .card p {
     font-family: "Lato", sans-serif;
     color: var(--seconday);
