@@ -230,6 +230,11 @@
   transition: all 0.3s ease;
 }*/
 
+/* Add a smooth transition effect for all properties on hover */
+.nav-link, .navbar-brand, h2, h3, p, li {
+  transition: all 0.3s ease;
+}
+
 /* Scale up the navbar links on hover */
 .nav-link:hover, .navbar-brand:hover {
   transform: scale(1.1);
@@ -261,8 +266,9 @@ section {
 /* Card container styles */
 .card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   column-gap: 2rem;
+  row-gap: 2rem;
 }
 
 /* Card item styles */
@@ -367,11 +373,7 @@ section.services {
 .services-head + p {
   color: var(--white);
   font-family: "Lato", sans-serif;
-  margin-bottom: 1rem;
-  text-align: left;
-  margin-bottom: 6rem;
-  font-weight: 400;
-}
+  margin
 
 /* Add flex effects*/
   /*".flex {
