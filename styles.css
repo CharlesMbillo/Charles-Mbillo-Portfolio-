@@ -111,20 +111,12 @@ section.skills {
   }
 
 section.skills .card-grid { 
-  display: grid; grid-template-
-  columns: repeat(3, 1fr); column-gap: 2rem; } 
+   display: grid; 
+   grid-template-
+   columns: repeat(3, 1fr); 
+   column-gap: 2rem; } 
 
 }
-  
-  section.skills .card-grid .card p {
-    font-family: "Lato", sans-serif;
-    color: var(--seconday);
-    line-height: 1.6;
-  }
-  section.skills .card-grid .card:hover {
-    background: var(--primary);
-  }
-
 
   section.services .card-grid .card:hover h2 {
     scale: 1.02;
