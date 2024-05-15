@@ -1,4 +1,4 @@
-/* Add a smooth transition effect for all properties on hover 
+/* Add a smooth transition effect for all properties on hover */
 .nav-link, .navbar-brand, h2, h3, p, li {
   transition: all 0.3s ease;
 }
@@ -27,7 +27,7 @@
   }
 }
 
-/* Add skills section effects */
+/* Add skills section effects 
   section.skills {
     background: #f9f9f9;;
   }
@@ -91,9 +91,9 @@
   }
   section.skills .card-grid .card:hover p {
     color: var(--white);
-  }
+  }*/
 
-/* Add projects section effects */
+/* Add projects section effects
   section.projects {
     background: #f9f9f9;;
   }
@@ -159,9 +159,9 @@
   section.projects .card-grid .card:hover p {
     color: var(--white);
   }
+*/
 
-
-/* Add services section effects */
+/* Add services section effects 
   section.services {
     background: #f9f9f9;;
   }
@@ -225,10 +225,10 @@
   section.services .card-grid .card:hover p {
     color: var(--white);
   }*/
-/* Add a smooth transition effect for all properties on hover */
+/* Add a smooth transition effect for all properties on hover
 .nav-link, .navbar-brand, h2, h3, p, li {
   transition: all 0.3s ease;
-}
+}*/
 
 /* Scale up the navbar links on hover */
 .nav-link:hover, .navbar-brand:hover {
