@@ -242,7 +242,7 @@ footer {
   }
   section.services .card-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
   section.services .card-grid .card {
