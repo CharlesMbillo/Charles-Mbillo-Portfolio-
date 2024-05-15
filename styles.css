@@ -108,7 +108,7 @@ footer {
   }
   section.skills .card-grid {
     display: grid;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
@@ -173,8 +173,9 @@ footer {
     background: white;
   }
   section.projects .card-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display:grid
+    /*display: flex;
+    flex-wrap: wrap;*/
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
