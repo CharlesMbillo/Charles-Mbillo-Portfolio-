@@ -105,6 +105,10 @@ section.skills {
   font-weight: 400;
 }
 
+section.skills .card-grid { 
+  display: grid; grid-template-
+  columns: repeat(3, 1fr); column-gap: 2rem; } 
+
 section.projects {
   background: #f9f9f9;
 }
